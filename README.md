@@ -1,4 +1,4 @@
-# express-seed
+# express-socket-chat
 
 Minimal Node.js express based application for project kickstarting.
 
