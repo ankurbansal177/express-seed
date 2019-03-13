@@ -1,9 +1,9 @@
 const Common = require('../Utility/Common');
 
 class User {
-  constructor(name) {
+  constructor(name, active = true) {
     this.id = Common.getRandomString();
-    this.active = true;
+    this.active = active;
     this.firstName = name;
     User.UserMap[this.id] = this;
   }
@@ -28,7 +28,7 @@ class User {
   }
   static getName(id) {
     const user = User.getUserDetailsById(id);
-    return (user.firstName + user.lastName);
+    return (user.firstName + (user.lastName ? user.lastName : ""));
   }
 
 }

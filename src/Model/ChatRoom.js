@@ -15,10 +15,8 @@ class ChatRoom {
     this.messageList.push(messageT);
     return messageT;
   }
-  addUserToRoom(userId) {
-    if (this.userList.indexOf(userId) === -1) {
-      this.userList.push(userId);
-    }
+  addUserToRoom(user) {
+    this.userList.push(user);
   }
   deleteChatRoom() {
     delete ChatRoom.ChatRoomList[this.id];
@@ -37,5 +35,4 @@ class ChatRoom {
     return ChatRoom.ChatRoomList[id];
   }
 }
-ChatRoom.ChatRoomList = {};
 module.exports = ChatRoom;
