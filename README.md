@@ -18,18 +18,8 @@ $ yarn install
   - [morgan log configuration](https://github.com/expressjs/morgan#predefined-formats), defaults to `dev`
 
 ### Usage
-Start:
-```bash
-$ yarn start
-```
-Test:
-```bash
-$ yarn test
-```
-Coverage:
-```bash
-$ yarn run coverage
-```
+#### npm install
+#### node app.js
 
 ### License
 
