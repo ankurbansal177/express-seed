@@ -1,6 +1,9 @@
 # express-socket-chat
 
-Minimal Node.js express based application for project kickstarting.
+Nodejs and socket app for chat:
+
+## Code files
+```### src/Chatroom.js, src/Message.js, src/User.js, src/Connection.js, app.js
 
 ### Setup
 ```bash
