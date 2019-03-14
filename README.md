@@ -7,8 +7,8 @@ src/Chatroom.js, src/Message.js, src/User.js, src/Connection.js, app.js
 
 ### Setup
 ```bash
-$ npm install yarn -g
-$ yarn install
+$ npm install
+$ node app.js
 ```
 ### Environment
 * dotenv is supported, just create a .env file
